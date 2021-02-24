@@ -1,0 +1,32 @@
+{
+  "name": "compound-liquidation-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1",
+    "syncpack": "^5.7.11"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "app:dev": "cd packages/app && npm run start",
+    "api:dev": "cd packages/api && npm run start",
+    "format": "syncpack format",
+    "sync": "syncpack fix-mismatches",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
